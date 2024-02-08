@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+<form>
+        <label for="id_usuario">Usúario:</label> 
+    <input placeholder="Digite o seu nome" type="text" id="id_usuario" name="nome_usuario">
+    <br>
+
+    <label for="id_idade">Idade:</label>
+    <input type="number" name="nome_idade" id="id_idade">
+    <br>
+
+    <label for="id_email">Email:</label>
+    <input type="email" name="name_email" id="id_email">
+    <br>
+
+    <label for="id_password">Senha:</label>
+    <input type="password" name="name_password" id="id_password">
+    <br>
+
+    <b><p>Marque as liguagens que voce conhece:</p></b>
+    <input type="checkbox" id="python" name="linguagem">
+    <label for="python">Python</label>
+    <br>
+    <input type="checkbox" id="HTML" name="linguagem">
+    <label for="HTML">HTML</label>
+    <br>
+    <input type="checkbox" id="CSS" name="linguagem">
+    <label for="CSS">CSS</label>
+    <br>
+
+    <p>Marque seu sexo:</p>
+    <input type="radio" id="Masculino" name="sexo">
+    <label for="Masculino">Masculino</label>
+    <br>
+    <input type="radio" id="Feminino" name="sexo">
+    <label for="Feminino">Feminino</label>
+    <br>
+    <input type="radio" id="Outro" name="sexo">
+    <label for="Outro">Outro</label>
+    <br>
+
+    <label for="id_data">Data de Nascimento:</label>
+    <input type="date" name="name_data" id="id_data">
+    <br>
+
+    <label for="id_tempo">Hora de Chegada:</label>
+    <input type="time" name="name_tempo" id="id_tempo">
+    <br>
+
+    <label for="id_arquivo">Selecione um arquivo:</label><br>
+    <input type="file" name="name_arquivo" id="id_arquivo">
+    <br>
+
+    <label for="id_cor">Selecione uma cor:</label>
+    <input type="color" name="name_cor" id="id_cor">
+    <br>
+
+    <label for="id_range">Selecione uma Range:</label>
+    <input type="range" name="name_range" id="id_range">
+    <br>
+
+    <label for="id_mensagem">Mensagem:</label><br>
+    <textarea name="nome_mensagem" id="id_mensagem" cols="30" rows="10"></textarea>
+    <br>
+
+    <label for="id_cidade">Selecione uma cidade</label>
+    <select name="nome_cidade" id="id_cidade">
+    <option value="fortaleza">Fortaleza</option>
+    <option value="rio_de_janeiro">Rio de Janeiro</option>
+    <option value="sao_paulo">São Paulo</option>
+    </select>
+<br>
+    <button>Enviar</button>
+    <button>Cancelar</button>
+</form>
+</body>
+</html>
